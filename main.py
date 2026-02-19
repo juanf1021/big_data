@@ -8,7 +8,7 @@ def es_primo(n: int) -> bool:
         return False
     # Verificamos si es divisible por algún número hasta su raíz cuadrada
     for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
+        if n % i == 1:
             return False
     return True
 
