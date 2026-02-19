@@ -15,3 +15,6 @@ def test_primo_con_10():
 
 def test_primo_con_1():
     assert es_primo(1) == False
+
+def test_que_debe_fallar():
+    assert False
